@@ -1,0 +1,5 @@
+TAGS TO DO A COMMIT:
+
+ADDED: When create a new feacture in the application
+FIXED: When fix a bug
+IMPROV: When add a improvement in the application
