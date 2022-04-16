@@ -58,4 +58,3 @@ D:\Projetos\SiteAPI_DotNet5.0\studentWebAPI\studentWebAPI\obj\Debug\net5.0\stude
 D:\Projetos\SiteAPI_DotNet5.0\studentWebAPI\studentWebAPI\obj\Debug\net5.0\ref\studentWebAPI.dll
 D:\Projetos\SiteAPI_DotNet5.0\studentWebAPI\studentWebAPI\obj\Debug\net5.0\studentWebAPI.pdb
 D:\Projetos\SiteAPI_DotNet5.0\studentWebAPI\studentWebAPI\obj\Debug\net5.0\studentWebAPI.genruntimeconfig.cache
-D:\Projetos\SiteAPI_DotNet5.0\studentWebAPI\studentWebAPI\obj\Debug\net5.0\studentWebAPI.csproj.AssemblyReference.cache

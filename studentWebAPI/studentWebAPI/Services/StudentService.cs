@@ -22,29 +22,39 @@ namespace studentWebAPI.Services
             var students = await _context.Students.ToListAsync();
             return students;
         }
+
         public async Task<Student> GetStudent(int id)
         {
-            throw new NotImplementedException();
+            var student = await _context.Students.FindAsync(id);
+            return student;
         }
 
         public async Task<IEnumerable<Student>> GetStudentsByName(string name)
         {
-            throw new NotImplementedException();
+            IEnumerable<Student> students = 
+                !string.IsNullOrWhiteSpace(name)
+                ? await _context.Students.Where(n => n.Name.Contains(name)).ToListAsync() 
+                : await GetStudents();
+
+            return students;
         }
 
         public async Task CreateStudent(Student student)
         {
-            throw new NotImplementedException();
+            _context.Students.Add(student);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateStudent(Student student)
         {
-            throw new NotImplementedException();
+            _context.Entry(student).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
         }
 
         public async Task RemoveStudent(Student student)
         {
-            throw new NotImplementedException();
+            _context.Students.Remove(student);
+            await _context.SaveChangesAsync();
         }
     }
 }
