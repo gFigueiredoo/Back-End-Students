@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studentWebAPI.Services
 {
-    interface IStudentService
+    public interface IStudentService
     {
         Task<IEnumerable<Student>> GetStudents();
 

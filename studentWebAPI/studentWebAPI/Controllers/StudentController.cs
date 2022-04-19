@@ -16,7 +16,7 @@ namespace studentWebAPI.Controllers
     {
         private IStudentService _studentService;
 
-        public StudentController(StudentService studentService)
+        public StudentController(IStudentService studentService)
         {
             _studentService = studentService;
         }
