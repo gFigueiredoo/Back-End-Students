@@ -33,7 +33,8 @@ namespace studentWebAPI
 
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IStudentService, StudentService>();
-            
+            services.AddCors();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "studentWebAPI", Version = "v1" });
@@ -49,6 +50,14 @@ namespace studentWebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "studentWebAPI v1"));
             }
+
+            app.UseCors(options =>
+            {
+                options.WithOrigins("https://localhost:3000");
+                options.AllowAnyOrigin();
+                options.AllowAnyMethod();
+                options.AllowAnyHeader();
+            });
 
             app.UseHttpsRedirection();
             app.UseRouting();

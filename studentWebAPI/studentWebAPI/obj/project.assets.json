@@ -5983,11 +5983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\SiteAPI_DotNet5.0\\studentWebAPI\\studentWebAPI\\studentWebAPI.csproj",
+      "projectUniqueName": "D:\\Projetos\\backAPI\\studentAPI\\studentWebAPI\\studentWebAPI\\studentWebAPI.csproj",
       "projectName": "studentWebAPI",
-      "projectPath": "D:\\Projetos\\SiteAPI_DotNet5.0\\studentWebAPI\\studentWebAPI\\studentWebAPI.csproj",
+      "projectPath": "D:\\Projetos\\backAPI\\studentAPI\\studentWebAPI\\studentWebAPI\\studentWebAPI.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\SiteAPI_DotNet5.0\\studentWebAPI\\studentWebAPI\\obj\\",
+      "outputPath": "D:\\Projetos\\backAPI\\studentAPI\\studentWebAPI\\studentWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
