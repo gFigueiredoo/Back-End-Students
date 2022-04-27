@@ -90,6 +90,7 @@ namespace studentWebAPI.Controllers
                 return NotFound($"{student.Name} student don't found");
             }
 
+            await _studentService.RemoveStudent(student);
             return Ok($"{student.Name} student removed");
         }
     }
