@@ -39,6 +39,8 @@ namespace studentWebAPI
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddScoped<IAuthenticate, AuthenticateService>();
+
             services.AddScoped<StudentService>();
             services.AddCors();
 
