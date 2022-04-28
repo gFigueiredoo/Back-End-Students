@@ -17,8 +17,8 @@ namespace studentWebAPI.ViewModel
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirmar senha")]
-        [Compare("Password", ErrorMessage = "Senhas não conferem")]
+        [Display(Name = "Confirm password")]
+        [Compare("Password", ErrorMessage = "Passwords no match")]
         public string ConfirmPassword { get; set; }
     }
 }

@@ -8,12 +8,12 @@ namespace studentWebAPI.ViewModel
 {
     public class LoginModel
     {
-        [Required(ErrorMessage = "Email é obrigatório")]
-        [EmailAddress(ErrorMessage = "Formato de email inválido")]
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Invalid email format")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "A senha é obrigatória")]
-        [StringLength(20, ErrorMessage = "A {0} deve ter no mínimo {2} e no máximo {1} caracteres.", MinimumLength = 10)]
+        [Required(ErrorMessage = "Password is required")]
+        [StringLength(20, ErrorMessage = "The {0} must be at least {2} and at most {1} characters.", MinimumLength = 10)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }
