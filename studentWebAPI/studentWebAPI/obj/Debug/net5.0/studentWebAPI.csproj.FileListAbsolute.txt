@@ -82,7 +82,6 @@ D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Micr
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -118,3 +117,5 @@ D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\obj\Debug\net5.0\stud
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\obj\Debug\net5.0\ref\studentWebAPI.dll
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\obj\Debug\net5.0\studentWebAPI.pdb
 D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\obj\Debug\net5.0\studentWebAPI.genruntimeconfig.cache
+D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projetos\backAPI\studentAPI\studentWebAPI\studentWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

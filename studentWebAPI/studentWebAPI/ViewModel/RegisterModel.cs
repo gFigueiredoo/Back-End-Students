@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studentWebAPI.ViewModel
 {
-    public class RegisterModelcs
+    public class RegisterModel
     {
         [Required]
         [EmailAddress]
