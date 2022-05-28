@@ -14,8 +14,9 @@ O desafio desse projeto é fazer com que o usuário tenha total liberdade para e
 
 Estou disponibilizando dois arquivos de front-end, um é simples e o outro um pouco mais elaborado. Eles estão em repositórios diferentes, podemos verificar abaixo:
 
-Simples: gFigueiredoo/Front-Simple-Students
-Elaborado: gFigueiredoo/Front-React-Students
+Simples: gFigueiredoo/Front-Simple-Students.
+
+Elaborado: gFigueiredoo/Front-React-Students.
 
 ### Desenvolvimento e Tecnologias:
 
@@ -25,6 +26,7 @@ Para a construção do Front, a principal linguagem utilizada é React.
 Porém, as tecnologias abordadas são:
 
 ASP.NET Core Web, Axios, React, JwT, Node.js, JavaScript.
+
 Visual Studio, SQL Server, Visual Code, Swagger UI.
 
 
